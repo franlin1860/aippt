@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.torchv</groupId>
+    <artifactId>doc2md-cli</artifactId>
+    <version>1.0.0</version>
+
+    <name>Doc2MD CLI</name>
+    <description>Word/PDF转Markdown命令行工具</description>
+
+    <properties>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <poi.version>5.2.3</poi.version>
+        <tika.version>2.7.0</tika.version>
+        <slf4j.version>1.7.36</slf4j.version>
+        <log4j.version>2.19.0</log4j.version>
+        <hutool.version>5.8.18</hutool.version>
+    </properties>
+
+    <dependencies>
+        <!-- TorchV Unstructured (已安装到本地Maven仓库) -->
+        <dependency>
+            <groupId>com.torchv.infra</groupId>
+            <artifactId>torchv-unstructured</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+
+        <!-- Apache POI - 用于处理Microsoft Office文档 -->
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi</artifactId>
+            <version>${poi.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi-ooxml</artifactId>
+            <version>${poi.version}</version>
+        </dependency>
+
+        <!-- Apache Tika - 用于文档内容提取 -->
+        <dependency>
+            <groupId>org.apache.tika</groupId>
+            <artifactId>tika-core</artifactId>
+            <version>${tika.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.tika</groupId>
+            <artifactId>tika-parsers-standard-package</artifactId>
+            <version>${tika.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.tika</groupId>
+            <artifactId>tika-parser-text-module</artifactId>
+            <version>${tika.version}</version>
+        </dependency>
+
+        <!-- Hutool工具包 -->
+        <dependency>
+            <groupId>cn.hutool</groupId>
+            <artifactId>hutool-core</artifactId>
+            <version>${hutool.version}</version>
+        </dependency>
+
+        <!-- 日志框架 -->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>${slf4j.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-simple</artifactId>
+            <version>${slf4j.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-api</artifactId>
+            <version>${log4j.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-core</artifactId>
+            <version>${log4j.version}</version>
+        </dependency>
+    </dependencies>
+
+    <!-- 仓库配置 -->
+    <repositories>
+        <repository>
+            <id>central</id>
+            <name>Maven中央仓库</name>
+            <url>https://repo1.maven.org/maven2/</url>
+        </repository>
+        <!-- 如果TorchV有自己的Maven仓库，可以在这里添加 -->
+        <!-- 
+        <repository>
+            <id>torchv-repo</id>
+            <name>TorchV Maven仓库</name>
+            <url>https://maven.torchv.com/repository/maven-public/</url>
+        </repository>
+        -->
+    </repositories>
+
+    <build>
+        <plugins>
+            <!-- 编译插件 -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.11.0</version>
+                <configuration>
+                    <source>${maven.compiler.source}</source>
+                    <target>${maven.compiler.target}</target>
+                </configuration>
+            </plugin>
+            
+            <!-- 依赖复制插件 -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-dependency-plugin</artifactId>
+                <version>3.6.0</version>
+                <executions>
+                    <execution>
+                        <id>copy-dependencies</id>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>copy-dependencies</goal>
+                        </goals>
+                        <configuration>
+                            <outputDirectory>${project.basedir}/lib</outputDirectory>
+                            <excludeScope>system</excludeScope>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+</project>
