@@ -1,0 +1,293 @@
+{
+  "headings": [
+    {
+      "class": "heading",
+      "text": "前期准备工作",
+      "attributes": {
+        "level": "1",
+        "type": "heading",
+        "format": "ordered_number"
+      }
+    },
+    {
+      "class": "heading",
+      "text": "开展AI大模型技术学习研究",
+      "attributes": {
+        "level": "2",
+        "type": "heading",
+        "format": "chinese_parentheses"
+      }
+    },
+    {
+      "class": "heading",
+      "text": "组建工作专班加速AI应用落地",
+      "attributes": {
+        "level": "2",
+        "type": "heading",
+        "format": "chinese_parentheses"
+      }
+    },
+    {
+      "class": "heading",
+      "text": "重点工作成果",
+      "attributes": {
+        "level": "1",
+        "type": "heading",
+        "format": "ordered_number"
+      }
+    },
+    {
+      "class": "heading",
+      "text": "实现AI大模型混合部署和初步应用",
+      "attributes": {
+        "level": "2",
+        "type": "heading",
+        "format": "chinese_parentheses"
+      }
+    },
+    {
+      "class": "heading",
+      "text": "集团历史资料收集",
+      "attributes": {
+        "level": "2",
+        "type": "heading",
+        "format": "chinese_parentheses"
+      }
+    },
+    {
+      "class": "heading",
+      "text": "智能会议",
+      "attributes": {
+        "level": "2",
+        "type": "heading",
+        "format": "chinese_parentheses"
+      }
+    },
+    {
+      "class": "heading",
+      "text": "全过程工作质效管理",
+      "attributes": {
+        "level": "2",
+        "type": "heading",
+        "format": "chinese_parentheses"
+      }
+    },
+    {
+      "class": "heading",
+      "text": "合同风险管控",
+      "attributes": {
+        "level": "2",
+        "type": "heading",
+        "format": "chinese_parentheses"
+      }
+    },
+    {
+      "class": "heading",
+      "text": "公文节点实时监测",
+      "attributes": {
+        "level": "2",
+        "type": "heading",
+        "format": "chinese_parentheses"
+      }
+    },
+    {
+      "class": "heading",
+      "text": "下一步工作计划",
+      "attributes": {
+        "level": "1",
+        "type": "heading",
+        "format": "ordered_number"
+      }
+    },
+    {
+      "class": "heading",
+      "text": "加快推进已完成应用场景落地",
+      "attributes": {
+        "level": "2",
+        "type": "heading",
+        "format": "chinese_parentheses"
+      }
+    },
+    {
+      "class": "heading",
+      "text": "进一步对各应用进行调优升级",
+      "attributes": {
+        "level": "2",
+        "type": "heading",
+        "format": "chinese_parentheses"
+      }
+    },
+    {
+      "class": "heading",
+      "text": "挖掘新AI应用场景",
+      "attributes": {
+        "level": "2",
+        "type": "heading",
+        "format": "chinese_parentheses"
+      }
+    },
+    {
+      "class": "heading",
+      "text": "开发合同管控平台与智能进销存管理平台",
+      "attributes": {
+        "level": "2",
+        "type": "heading",
+        "format": "chinese_parentheses"
+      }
+    },
+    {
+      "class": "heading",
+      "text": "加快推进管控大模型在安全生产中的应用",
+      "attributes": {
+        "level": "2",
+        "type": "heading",
+        "format": "number_parentheses"
+      }
+    }
+  ],
+  "lists": [],
+  "code_blocks": [],
+  "paragraphs": [
+    {
+      "class": "paragraph",
+      "text": "河北交投智能科技股份有限公司",
+      "attributes": {
+        "type": "paragraph"
+      }
+    },
+    {
+      "class": "paragraph",
+      "text": "关于集团管控大模型开发与应用工作情况的汇报",
+      "attributes": {
+        "type": "paragraph"
+      }
+    },
+    {
+      "class": "paragraph",
+      "text": "自2025年2月11日集团主要领导安排部署集团管控大模型开发与应用工作以来，智能科技公司迅速组建管控大模型开发与应用工作专班，开展AI大模型技术学习研究和全流程工作质效管理平台方案设计开发工作，现取得阶段性成效。现将有关情况汇报如下：",
+      "attributes": {
+        "type": "paragraph"
+      }
+    },
+    {
+      "class": "paragraph",
+      "text": "营造领导带头学习研究AI，集团公司数字化中心、智能科技公司全体研发人员共同学习研究AI的氛围，积极探索AI大模型落地路径。",
+      "attributes": {
+        "type": "paragraph"
+      }
+    },
+    {
+      "class": "paragraph",
+      "text": "经过前期反复研讨，确定了“利用专业知识对大模型进行微调，并辅以外挂知识库（RAG）”的大模型技术路线和“以私有化部署AI大模型为底座，建立集团专有知识库和指标库，通过开发多场景AI Agent赋能集团管控数智化”的系统技术路线。",
+      "attributes": {
+        "type": "paragraph"
+      }
+    },
+    {
+      "class": "paragraph",
+      "text": "智能科技公司抽调精干研发力量，于3月初形成了超40人的集团管控大模型开发与应用工作专班（其中智能公司研发人员16人，占比40%），以“流程再造、节点赋能、系统分析、综合考核”为指导方针，重点围绕全流程工作质效管理、智能会议监督、合同风险管控等应用场景开展AI应用工作，同步根据AI应用需求进行集团相关资料和数据收集。",
+      "attributes": {
+        "type": "paragraph"
+      }
+    },
+    {
+      "class": "paragraph",
+      "text": "智能科技公司采购了2台AI服务器（GPU卡8张、FP16算力2640T FLOPS），实现了智谱GLM4 32B通用大模型和DeepSeek-R1 32B推理大模型的私有化混合部署。通过收集行业内相关知识及集团规章制度，构建集团专有知识库，目前已在聚合致远云平台上线DeepSeek和AI助手（制度问答）应用。此外，研究部署了Dify开发平台，并开发了SQL生成、智能翻译等AI Agent应用。",
+      "attributes": {
+        "type": "paragraph"
+      }
+    },
+    {
+      "class": "paragraph",
+      "text": "于2025年3月5日发布《关于收集材料开展集团管控大模型知识训练的通知》通知，积极联系集团各部室进行资料收集工作。截至目前已从8个部室收集文件2731个，共107G，同步通过办公系统完成2021至2025年公文、情况报告、合同等文件收集，并按照大模型开发需求整理、提供相应文件。",
+      "attributes": {
+        "type": "paragraph"
+      }
+    },
+    {
+      "class": "paragraph",
+      "text": "对聚合致远云平台现有会议管理系统进行升级，实现会前预定、会中记录、会后整理的全链条流程优化。目前已在会议室预定界面增加“转写”和“生成会议纪要”功能，支持同步、编辑、下载会议转写记录，应用AI大模型能力开发了1个AI Agent，实现根据转写记录自动生成会议纪要，并将会议纪要推送到全过程工作质效管理系统。",
+      "attributes": {
+        "type": "paragraph"
+      }
+    },
+    {
+      "class": "paragraph",
+      "text": "设计开发工作质效管理平台，以项目化管理模式对集团各项重点工作进行全过程工作质效管理，实现集团重点任务制定分解、跟踪落实、结果考核的PDCA管理闭环。",
+      "attributes": {
+        "type": "paragraph"
+      }
+    },
+    {
+      "class": "paragraph",
+      "text": "目前已完成全流程工作质效管理平台框架搭建和核心功能开发，实现项目管理和任务管理两大核心功能，并通过领导看板、部门看板、个人看板三项数据看板，实现项目执行情况的可视化展示。",
+      "attributes": {
+        "type": "paragraph"
+      }
+    },
+    {
+      "class": "paragraph",
+      "text": "同时，利用AI大模型开发了4个AI Agent，根据会议纪要、部门职能设置及部门职责、岗位设置及岗位职责等，实现了AI智能立项（根据会议纪要自动生成项目）、AI推荐岗位（根据项目类型和岗位职责智能匹配岗位）、AI智能分解（根据项目目标智能分解任务）、AI预评价（根据项目反馈进展进行AI任务评价和AI项目评价）等功能。",
+      "attributes": {
+        "type": "paragraph"
+      }
+    },
+    {
+      "class": "paragraph",
+      "text": "对聚合致远云平台现有合同管理功能进行升级，实现合同履行全过程风险管理。目前已利用AI大模型开发了1个AI Agent，在合同审批环节实现合同关键信息提取、合规审查初审意见自动生成、审查合同金额是否超过情况报告申请预算金额等功能。",
+      "attributes": {
+        "type": "paragraph"
+      }
+    },
+    {
+      "class": "paragraph",
+      "text": "通过对集团各主办部室办理公文总数及办理用时、公文各流程节点办理人员用时等进行统计，形成了覆盖公文办理全流程的时耗数据库，实现了对公文流转全过程的动态跟踪与实时监控，有助于实现集团公文的精细化管理和量化管理。",
+      "attributes": {
+        "type": "paragraph"
+      }
+    },
+    {
+      "class": "paragraph",
+      "text": "一是进一步对接董事会办公室、党委办公室、办公室等会议组织部室，优化重点任务PDCA管理流程，推进系统在集团公司上线应用。二是推进董事会、党委会、总办会、专题会等重要会议使用会议系统进行会议录音和会议转写，为AI生成会议纪要积累会议素材。",
+      "attributes": {
+        "type": "paragraph"
+      }
+    },
+    {
+      "class": "paragraph",
+      "text": "一是对接科大讯飞共同研究，通过选择合适声音采集设备、调优讯飞转写系统等方式，进一步提升集团会议系统转写准确率。二是进一步研究利用AI大模型实现根据各参会人员发言内容进行会议参与度分析、判断发言观点是否符合国家政策和集团制度要求等功能。三是收集系统实际应用数据反哺AI，进一步调优AI预分解、预分配、预评价等功能。四是完善项目知识库，增加个人知识库，提升AI赋能能力。",
+      "attributes": {
+        "type": "paragraph"
+      }
+    },
+    {
+      "class": "paragraph",
+      "text": "优先围绕员工赋能、人员考核、财务管理、风险防控等领域开展应用落地工作。员工赋能方面优先实现AI写作，人员考核方面优先实现通过重点工作考核为人员考核提供依据，财务管理方面优先实现收单机器人AI升级、商贸物流AI辅助审批、AI记账等功能，风险防控方面优先实现合同风险和资金风险防控。",
+      "attributes": {
+        "type": "paragraph"
+      }
+    },
+    {
+      "class": "paragraph",
+      "text": "开发合同管控平台，实现从合同起草、合同审批、合同签订、合同变更、合同履约、合同归档等全流程管理，利用AI大模型实现合同审查、合同信息提取、智能问答、文字校核及文档比对等智能审查功能。开发智能进销存管理平台，利用AI大模型实现采购、销售、库存、资金等环节的全链路管理。",
+      "attributes": {
+        "type": "paragraph"
+      }
+    },
+    {
+      "class": "paragraph",
+      "text": "一是排查梳理近几年各路段、各单位已经发生的或者存在的一些问题隐患，形成完备的动态管控清单，在管控大模型中作为专有知识库（问题库）进行管理。二是持续升级安全生产监督管理平台，加快研发“隐患一键报”等功能，加快研究管控大模型在安全生产中的应用，形成可追溯、可分析、可预判的系统平台。",
+      "attributes": {
+        "type": "paragraph"
+      }
+    },
+    {
+      "class": "paragraph",
+      "text": "1",
+      "attributes": {
+        "type": "paragraph"
+      }
+    }
+  ],
+  "metadata": {}
+}

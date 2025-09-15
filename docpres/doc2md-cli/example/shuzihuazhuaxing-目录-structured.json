@@ -1,0 +1,200 @@
+{
+  "headings": [
+    {
+      "class": "heading",
+      "text": "目录",
+      "attributes": {
+        "level": "1",
+        "type": "heading"
+      }
+    },
+    {
+      "class": "heading",
+      "text": "一、数字化转型的定义与参考",
+      "attributes": {
+        "level": "1",
+        "type": "heading"
+      }
+    },
+    {
+      "class": "heading",
+      "text": "（一）数字化转型是什么",
+      "attributes": {
+        "level": "2",
+        "type": "heading"
+      }
+    },
+    {
+      "class": "heading",
+      "text": "（二）数字化转型应该做什么",
+      "attributes": {
+        "level": "2",
+        "type": "heading"
+      }
+    },
+    {
+      "class": "heading",
+      "text": "（三）对标行业、企业数字化转型情况",
+      "attributes": {
+        "level": "2",
+        "type": "heading"
+      }
+    },
+    {
+      "class": "heading",
+      "text": "二、集团管控数字化工作进展",
+      "attributes": {
+        "level": "1",
+        "type": "heading"
+      }
+    },
+    {
+      "class": "heading",
+      "text": "（一）规划先行，制定集团数字化转型规划和顶层设计",
+      "attributes": {
+        "level": "2",
+        "type": "heading"
+      }
+    },
+    {
+      "class": "heading",
+      "text": "（二）研发自主知识产权低代码开发平台",
+      "attributes": {
+        "level": "2",
+        "type": "heading"
+      }
+    },
+    {
+      "class": "heading",
+      "text": "（三）基于低代码开发平台构建集团聚合致远云平台",
+      "attributes": {
+        "level": "2",
+        "type": "heading"
+      }
+    },
+    {
+      "class": "heading",
+      "text": "（四）开发系列应用系统并在全集团推广应用",
+      "attributes": {
+        "level": "2",
+        "type": "heading"
+      }
+    },
+    {
+      "class": "heading",
+      "text": "（五）做好运维保障工作",
+      "attributes": {
+        "level": "2",
+        "type": "heading"
+      }
+    },
+    {
+      "class": "heading",
+      "text": "（六）管控数字化取得了什么成果",
+      "attributes": {
+        "level": "2",
+        "type": "heading"
+      }
+    },
+    {
+      "class": "heading",
+      "text": "三、集团管控大模型工作进展",
+      "attributes": {
+        "level": "1",
+        "type": "heading"
+      }
+    },
+    {
+      "class": "heading",
+      "text": "（一）主要工作方式",
+      "attributes": {
+        "level": "2",
+        "type": "heading"
+      }
+    },
+    {
+      "class": "heading",
+      "text": "（二）重点工作成果",
+      "attributes": {
+        "level": "2",
+        "type": "heading"
+      }
+    },
+    {
+      "class": "heading",
+      "text": "四、问题与建议",
+      "attributes": {
+        "level": "1",
+        "type": "heading"
+      }
+    },
+    {
+      "class": "heading",
+      "text": "（一）集团管控数字化流程审批缓慢",
+      "attributes": {
+        "level": "2",
+        "type": "heading"
+      }
+    },
+    {
+      "class": "heading",
+      "text": "（二）集团产业数字化统筹管理不足",
+      "attributes": {
+        "level": "2",
+        "type": "heading"
+      }
+    },
+    {
+      "class": "heading",
+      "text": "（三）数据资源汇聚不足",
+      "attributes": {
+        "level": "2",
+        "type": "heading"
+      }
+    },
+    {
+      "class": "heading",
+      "text": "五、下一步工作思路",
+      "attributes": {
+        "level": "1",
+        "type": "heading"
+      }
+    },
+    {
+      "class": "heading",
+      "text": "（一）加块编制集团算力中心方案",
+      "attributes": {
+        "level": "2",
+        "type": "heading"
+      }
+    },
+    {
+      "class": "heading",
+      "text": "（二）及时引进最新的AI技术",
+      "attributes": {
+        "level": "2",
+        "type": "heading"
+      }
+    },
+    {
+      "class": "heading",
+      "text": "（三）持续完善集团专有知识库",
+      "attributes": {
+        "level": "2",
+        "type": "heading"
+      }
+    },
+    {
+      "class": "heading",
+      "text": "（四）按需开发管控类AI Agent新应用",
+      "attributes": {
+        "level": "2",
+        "type": "heading"
+      }
+    }
+  ],
+  "lists": [],
+  "code_blocks": [],
+  "paragraphs": [],
+  "metadata": {}
+}

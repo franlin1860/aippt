@@ -1,0 +1,7 @@
+# Python依赖
+jpype1>=1.4.0
+click>=8.0.0
+
+# 开发依赖
+pytest>=6.0.0
+black>=21.0.0

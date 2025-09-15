@@ -1,0 +1,100 @@
+{
+  "stage1": {
+    "step1_output": {
+      "layout_choice": "TEMPLATE_CONCEPTUAL_MODEL",
+      "confidence_score": 0.9,
+      "reasoning": "The reference content explicitly mentions that '企业数字化需求可以分为四个象限' (enterprise digital needs can be divided into four quadrants), which strongly indicates a four-quadrant conceptual model or matrix framework is being used to organize the content."
+    }
+  },
+  "stage2": {
+    "step2_output": {
+      "page_title": "大型企业数字化转型框架",
+      "template_type": "TEMPLATE_CONCEPTUAL_MODEL",
+      "content": {
+        "model_title": "企业数字化转型四象限模型",
+        "components": [
+          {
+            "name": "战略规划",
+            "description": "制定数字化战略目标与路线图",
+            "position": "quadrant1"
+          },
+          {
+            "name": "技术架构",
+            "description": "构建数字化技术基础设施",
+            "position": "quadrant2"
+          },
+          {
+            "name": "业务流程",
+            "description": "优化数字化业务流程与运营模式",
+            "position": "quadrant3"
+          },
+          {
+            "name": "组织文化",
+            "description": "培养数字化思维与企业文化",
+            "position": "quadrant4"
+          }
+        ],
+        "relationships": [
+          {
+            "from": "战略规划",
+            "to": "技术架构",
+            "type": "drives"
+          },
+          {
+            "from": "技术架构",
+            "to": "业务流程",
+            "type": "enables"
+          },
+          {
+            "from": "业务流程",
+            "to": "组织文化",
+            "type": "transforms"
+          },
+          {
+            "from": "组织文化",
+            "to": "战略规划",
+            "type": "informs"
+          }
+        ],
+        "key_insights": [
+          "数字化转型需从战略层面规划，技术层面支撑",
+          "业务流程优化是数字化转型的核心环节",
+          "组织文化转型是数字化成功的关键保障",
+          "四象限相互促进，形成闭环发展"
+        ]
+      }
+    }
+  },
+  "stage3": {
+    "step3_output": {
+      "image_search_keywords": "digital transformation quadrant model, enterprise strategy, technology architecture, business process optimization, organizational culture change, circular flow diagram, business framework",
+      "icon_suggestions": [
+        {
+          "item": "战略规划",
+          "icon_name": "strategy, brain, lightbulb, compass"
+        },
+        {
+          "item": "技术架构",
+          "icon_name": "server, network, gears, infrastructure"
+        },
+        {
+          "item": "业务流程",
+          "icon_name": "workflow, process, arrows, efficiency"
+        },
+        {
+          "item": "组织文化",
+          "icon_name": "people, team, culture, tree"
+        }
+      ],
+      "layout_constraints": {
+        "content_type": "quadrant_diagram_with_arrows",
+        "axis_labels": {
+          "x_axis": "Technology ← → Business",
+          "y_axis": "Structure ← → People"
+        },
+        "path_flow": "1 -> 2, 2 -> 3, 3 -> 4, 4 -> 1"
+      },
+      "color_palette_suggestion": "professional_technology_blue"
+    }
+  }
+}
