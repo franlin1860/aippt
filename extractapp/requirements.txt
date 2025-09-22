@@ -1,0 +1,4 @@
+langextract
+langextract-litellm
+litellm
+python-dotenv
