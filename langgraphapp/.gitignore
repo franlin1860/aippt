@@ -1,0 +1,33 @@
+# Environments
+.env
+.env.*
+!/.env.example
+venv/
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE
+.idea/
+.vscode/
+
+# Tests
+.pytest_cache/
+
+# Data
+data/
+
+# OS-specific
+.DS_Store
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Jupyter Notebook
+.ipynb_checkpoints
